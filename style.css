@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: "Space Mono", sans-serif;
+    letter-spacing: -0.035em;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.btn {
+    padding: 24px 43px;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    
+}
+
+.link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 95px;
+}
+
+.container {
+    max-width: 1286px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 77px;
+    padding-right: 77px;
+}
+
+.header__wrapper {
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+
+.header__title {
+    font-family: Inconsolata, sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -8%;
+}
+
+.section__wrapper {
+    display: flex;
+}
+
+.section__img {
+    width: 540px;
+}
+
+.section__left{
+    margin-right: 120px;
+}
+
+.section__right{
+    margin-left: auto;
+}
+
+.section__title {
+    padding-bottom: 36px;
+
+}
+
+.section__text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-bottom: 64px;
+}
+
+.section__btn {
+    display: inline-block;
+}
+
+.footer__copyrights {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #bdbdbd;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.footer__link {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.footer__link:visited {
+    color: #bdbdbd;
+}
+
+@media (max-width: 1439px) {
+    
+    .container {
+        max-width: 327px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .section__wrapper {
+        display: block;
+    }
+
+    .header__wrapper {
+        padding-bottom: 64px;
+    }
+
+    .section__img {
+        width: 287px;
+    }
+
+    .section__left {
+        padding-bottom: 60px;
+        margin-right: 0;
+    }
+    
+    .h1 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 71px;
+    }
+
+    .section__text {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+
+}
